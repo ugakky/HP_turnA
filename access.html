@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Turn A アクセス" />
+  <title>Turn A | ACCESS</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header" data-site-header>
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Turn A ホーム">
+      <span class="brand-mark" aria-hidden="true">A</span>
+      <span class="brand-text">Turn A</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="メインメニュー">
+      <a href="concept.html">CONCEPT</a>
+      <a href="cast.html">CAST</a>
+      <a href="menu.html">MENU</a>
+      <a href="access.html">ACCESS</a>
+      <a href="other.html">OTHER</a>
+    </nav>
+
+    <button class="nav-toggle" type="button"
+      aria-label="メニューを開く"
+      aria-controls="nav-drawer"
+      aria-expanded="false">
+      <span class="nav-toggle-bars" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <div class="nav-drawer" id="nav-drawer" hidden>
+    <nav class="nav-drawer-inner" aria-label="メインメニュー（スマホ）">
+      <a href="index.html">HOME</a>
+      <a href="concept.html">CONCEPT</a>
+      <a href="cast.html">CAST</a>
+      <a href="menu.html">MENU</a>
+      <a href="access.html">ACCESS</a>
+      <a href="other.html">OTHER</a>
+    </nav>
+  </div>
+
+  <div class="nav-backdrop" data-nav-close hidden></div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-title">ACCESS</h1>
+      <p class="page-lead">Googleマップと行き方を置くページだよ〜</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid-2">
+      <div class="card">
+        <h2 class="card-title">住所（仮）</h2>
+        <p class="section-text">
+          大阪府〇〇市〇〇区〇〇 1-2-3（仮）<br />
+          ビル名：〇〇ビル 〇F（仮）
+        </p>
+        <div class="chips">
+          <span class="chip">最寄駅：〇〇</span>
+          <span class="chip">徒歩：〇分</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title">地図（差し替え）</h2>
+        <p class="section-text">ここは店のGoogleマップ埋め込みに差し替えてね〜</p>
+        <div class="map-embed">
+          <div class="map-placeholder" role="img" aria-label="地図のプレースホルダー">
+            MAP
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2 class="section-title">行き方（例）</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-n">1</div>
+          <div class="step-t">駅の〇番出口を出る</div>
+        </div>
+        <div class="step">
+          <div class="step-n">2</div>
+          <div class="step-t">大通りをまっすぐ〇分</div>
+        </div>
+        <div class="step">
+          <div class="step-n">3</div>
+          <div class="step-t">〇〇の角を右（or 左）</div>
+        </div>
+        <div class="step">
+          <div class="step-n">4</div>
+          <div class="step-t">〇〇ビル〇Fに到着</div>
+        </div>
+      </div>
+
+      <div class="note-box">
+        <strong>コツ</strong><br />
+        迷いやすいポイント（看板・コンビニ・交差点）を1つ書くだけで、来店率が上がるよ〜
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">Turn A</div>
+    <div class="footer-links">
+      <a href="concept.html">CONCEPT</a>
+      <a href="cast.html">CAST</a>
+      <a href="menu.html">MENU</a>
+      <a href="access.html">ACCESS</a>
+      <a href="other.html">OTHER</a>
+    </div>
+    <div class="footer-meta">
+      <a class="link" href="https://x.com/Turn_a_osaka" target="_blank" rel="noopener">X</a>
+      <span>© Turn A</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
